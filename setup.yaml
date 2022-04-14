@@ -1,0 +1,14 @@
+users:
+ - name: mmuser
+  password: $POSTGRES_MMUSER_PASSWORD
+  role: superuser
+databases:
+ - name: mattermost
+  owner: mmuser
+  tablespace:
+   - name: tb1
+    location: /appz/data/tb1
+  schemas:
+   - name: schema1
+    authorised_user: mmuser
+    search_path: true
