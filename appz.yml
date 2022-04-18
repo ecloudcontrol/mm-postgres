@@ -40,3 +40,4 @@ properties:
     POSTGRES_MMUSER_PASSWORD:
       vault: POSTGRES_MMUSER_PASSWORD
     revision : 82
+    
