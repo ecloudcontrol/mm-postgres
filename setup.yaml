@@ -1,7 +1,7 @@
 users:
- - name: mmuser
-   password: $POSTGRES_MMUSER_PASSWORD
-   role: superuser
+  - name: mmuser
+    password: $POSTGRES_MMUSER_PASSWORD
+    role: superuser
 databases:
   - name: mattermost
     owner: mmuser
